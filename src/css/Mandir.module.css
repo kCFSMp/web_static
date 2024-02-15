@@ -1,0 +1,57 @@
+
+.container_mandir{
+    margin: 0 12vw;
+    align-items: center;
+    background-color: black;
+}
+.container_orientacion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2vh;
+}
+
+.fondoMandir{
+    background-image: url(../img/Shereemant.svg);
+    width: 100%;
+    height: 999px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.container_parrafo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title_parrafo{
+    color:#fff;
+    font-size: 3em;
+    font-weight: 700;
+}
+.parrafo{
+    color: #fff;
+    text-align: justify;
+    width: 28em;
+}
+
+.container_decorationtext{
+    display: flex;
+    gap: 1vw;
+}
+
+.container_decorationtext p{
+    color: #FFC178;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+@media (max-width: 1980px){
+    .container_mandir{
+        padding-top: 24vh;
+    }
+}

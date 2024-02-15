@@ -1,0 +1,144 @@
+
+.container_banner{
+    height: 100%;
+    position: relative;
+}
+
+.banner{
+    width: 100%;
+}
+
+.container_up{
+    position: absolute;
+    top: 29vh;
+    left: 0;
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: center;
+}
+.container_text{
+    display: flex;
+    margin: 0 1vw;
+}
+.container_redsocial{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    align-items: center;
+    margin: 5vh 0;
+}
+.container_redsocial p{
+    writing-mode: vertical-rl;
+}
+.container_redsocial a{
+    color: #fff;
+}
+
+/* --- */
+
+.container_textbann{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20vw;
+}
+.container_textbann p{
+    margin: 0;
+}
+.ro_1{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.ro_1 p{
+    color: #FFC178;
+    font-size: 1em;
+    font-weight: 500;
+    
+}
+
+.ro_2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.ro2_title1{
+    color: #fff;
+    font-size: 4em;
+    font-weight: 700;
+}
+.ro2_title2{
+    color: #fff;
+    font-size: 4em;
+    font-weight: 350;
+}
+
+/* --- */
+
+.ro_3{
+    display: flex;
+    justify-content: end;
+}
+
+/* ---------------------------------------------------------------------- */
+
+.container_1{
+    padding: 0 12vw;
+    position: absolute;
+    top: 148vh;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+.container_orientacion{
+    display: flex;
+    gap: 13vw;
+}
+.container_textKing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container_decorationtext{
+    display: flex;
+    gap: 1.5vw;
+}
+.container_imgFort{
+    width: 50%;
+}
+
+.container_textKing{
+    width: 50%;
+}
+.container_decorationtext p{
+    color: #FFC178;
+    font-size: 1em;
+    font-weight: 500;
+}
+.title_parrafo{
+    color:#fff;
+    font-size: 3em;
+    font-weight: 700;
+}
+.parrafo{
+    color: #fff;
+    text-align: justify;
+    width: auto;
+}
+
+@media (max-width: 1700px){
+    .container_1{
+        position: relative;
+        top: 0;
+        background-color: #000;
+    }
+}
+
+@media (max-width: 1290px) {
+    .container_orientacion{
+        gap: 2vw;
+    }
+}
+
