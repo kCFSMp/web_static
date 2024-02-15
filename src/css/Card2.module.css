@@ -42,7 +42,6 @@
     .container_orientacion{
         gap: 2vw;
         flex-direction: column;
-        align-items: center;
     }
     .container_imgFort{
         display: contents;
@@ -51,7 +50,7 @@
 
 @media (max-width: 780px) {
     .container_textKing{
-        width: 100%;
+        width: auto;
     }
 }
 

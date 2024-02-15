@@ -2,7 +2,7 @@ import styles from "../../css/Inicio.module.css";
 import banner from "../../img/bannerPune.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { Row } from "react-bootstrap";
+// import { Row } from "react-bootstrap";
 import down from "../../img/ScrollDown.svg";
 import deco_title from "../../img/Rectangle.svg";
 import Rajgad from "../../img/RajgadFort.svg";
@@ -25,7 +25,7 @@ export default function Contenido_inicio(){
                             <a href="#" target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon icon={faTwitter} className="fa-2x" />
                             </a>
-                            <a href="#" target="_blank" rel="noreferrer">
+                            <a href="#"target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon icon={faInstagram} className="fa-2x" />
                             </a>
                         </div>
@@ -71,7 +71,7 @@ export default function Contenido_inicio(){
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> 
                 {/* ---------------------------- */}
             </div>
             <Mandir/>

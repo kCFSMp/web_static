@@ -32,11 +32,12 @@
     color:#fff;
     font-size: 3em;
     font-weight: 700;
+    text-align: center;
 }
 .parrafo{
     color: #fff;
-    text-align: justify;
-    width: 28em;
+    text-align: center;
+    width: 30vw;
 }
 
 .container_decorationtext{

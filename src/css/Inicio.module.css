@@ -20,6 +20,7 @@
 .container_text{
     display: flex;
     margin: 0 1vw;
+    gap: 20vw;
 }
 .container_redsocial{
     display: flex;
@@ -41,7 +42,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 20vw;
 }
 .container_textbann p{
     margin: 0;
@@ -142,3 +142,69 @@
     }
 }
 
+
+@media (max-width: 800px){
+    .container_imgFort{
+        width: auto;
+        overflow: hidden;
+    }
+    .container_imgFort img{
+        width: 100%;
+        object-fit: contain;
+    }
+    .container_orientacion{
+        display: flex;
+        flex-direction: column;
+    }
+    .container_textKing{
+        width: auto;
+    }
+}
+
+@media (max-width: 680px) {
+    .container_up{
+        top: 17vh;
+    }
+    .container_text{
+        gap: 15vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .container_text{
+        gap: 10vw;
+    }
+}
+
+@media (max-width: 560px) {
+    .container_text{
+        gap: 4vw;
+    }
+}
+
+@media (max-width: 540px) {
+    .container_up{
+        top: 9vh;
+    }
+    .ro2_title1{
+        font-size: 3em;
+    }
+    .ro2_title2{
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 420px){
+    .container_redsocial{
+        margin: 2.5vh 0;
+    }
+    .container_up{
+        top: 7vh;
+    }
+    .ro2_title1{
+        font-size: 2.5em;
+    }
+    .ro2_title2{
+        font-size: 2.5em;
+    }
+}
